@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RecyScan</string>
+    <string name="tagline">Abfall richtig trennen</string>
+    <string name="search_hint">Abfall oder Wertstoff suchen…</string>
+    <string name="scan">Scannen</string>
+    <string name="scan_description">Kamera auf den Abfall richten, um die richtige Tonne zu finden.</string>
+    <string name="categories">Abfallarten</string>
+    <string name="guide_title">Wohin mit dem Müll?</string>
+    <string name="guide_subtitle">Suche nach Gegenständen für die richtige Entsorgung.</string>
+    <string name="reminders_title">Termine</string>
+    <string name="settings_title">Einstellungen</string>
+    <string name="no_results">Kein Produkt gefunden</string>
+    <string name="product_not_found">Produkt nicht in der Datenbank</string>
+    <string name="done">Fertig</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Start</string>
+    <string name="nav_guide">Ratgeber</string>
+    <string name="nav_scanner">Scanner</string>
+    <string name="nav_reminders">Termine</string>
+    <string name="nav_settings">Profil</string>
+
+    <!-- Settings -->
+    <string name="dark_mode">Dunkelmodus</string>
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="city">Stadt</string>
+    <string name="language">Sprache</string>
+    <string name="select_city">Stadt auswählen</string>
+    <string name="select_language">Sprache auswählen</string>
+    <string name="app_version">App Version</string>
+
+    <!-- Recycling Types -->
+    <string name="type_gelber_sack">Gelber Sack</string>
+    <string name="type_altpapier">Altpapier</string>
+    <string name="type_altglas">Altglas</string>
+    <string name="type_biomuell">Biomüll</string>
+    <string name="type_restmuell">Restmüll</string>
+
+    <!-- Instructions -->
+    <string name="instr_altglas">Nach Farben trennen (Weiß, Grün, Braun) und in die entsprechenden Glascontainer werfen. Deckel gehören in den Gelben Sack.</string>
+    <string name="instr_altpapier">Flach zusammenfalten und in die Papiertonne. Keine verschmutzten Papiere (z.B. Pizzakartons) einwerfen.</string>
+    <string name="instr_gelber_sack">Leere Verpackungen aus Kunststoff, Metall oder Verbundstoffen (z.B. Milchkartons) in den Gelben Sack oder die Gelbe Tonne.</string>
+    <string name="instr_biomuell">Organische Abfälle wie Obst- und Gemüsereste, Kaffeesatz oder Laub in die Biotonne.</string>
+    <string name="instr_restmuell">In den Restmüll werfen. Nicht recyclebare Stoffe, Windeln oder stark verschmutzte Abfälle.</string>
+
+    <!-- Scanner -->
+    <string name="scanning">Analysiere...</string>
+    <string name="hold_camera">Abfall vor die Kamera halten</string>
+    <string name="confidence_format">%1$.0f%% Sicherheit</string>
+    <string name="belongs_in">Gehört in: %1$s</string>
+
+    <!-- Home Categories -->
+    <string name="cat_plastic">Plastik</string>
+    <string name="cat_plastic_desc">Verpackungen, Folien</string>
+    <string name="cat_paper">Papier</string>
+    <string name="cat_paper_desc">Kartons, Zeitungen</string>
+    <string name="cat_glass">Glas</string>
+    <string name="cat_glass_desc">Flaschen, Gläser</string>
+    <string name="cat_bio">Biomüll</string>
+    <string name="cat_bio_desc">Essensreste, Gartenabfälle</string>
+    <string name="empty_category">Keine Produkte in dieser Kategorie</string>
+</resources>

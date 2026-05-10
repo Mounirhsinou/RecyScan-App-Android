@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base App Theme - Material 3 Light -->
+    <style name="Theme.RecyScan" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryContainer">@color/green_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/green_accent</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/grey_dark</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:fontFamily">@font/outfit_regular</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.RecyScan.Splash" parent="Theme.RecyScan">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- Dialog Theme -->
+    <style name="Theme.RecyScan.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorPrimary">@color/green_primary</item>
+    </style>
+
+    <!-- Card Style -->
+    <style name="Widget.RecyScan.Card" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">1dp</item>
+    </style>
+</resources>

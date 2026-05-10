@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RecyScan</string>
+    <string name="tagline">Recycle waste correctly</string>
+    <string name="search_hint">Search for waste or recyclables...</string>
+    <string name="scan">Scan</string>
+    <string name="scan_description">Point the camera at the waste to find the right bin.</string>
+    <string name="categories">Waste Types</string>
+    <string name="guide_title">Where does the waste go?</string>
+    <string name="guide_subtitle">Search for items for correct disposal.</string>
+    <string name="reminders_title">Schedules</string>
+    <string name="settings_title">Settings</string>
+    <string name="no_results">No product found</string>
+    <string name="product_not_found">Product not in database</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_guide">Guide</string>
+    <string name="nav_scanner">Scanner</string>
+    <string name="nav_reminders">Schedules</string>
+    <string name="nav_settings">Profile</string>
+
+    <!-- Settings -->
+    <string name="dark_mode">Dark Mode</string>
+    <string name="notifications">Notifications</string>
+    <string name="city">City</string>
+    <string name="language">Language</string>
+    <string name="select_city">Select City</string>
+    <string name="select_language">Select Language</string>
+    <string name="app_version">App Version</string>
+
+    <!-- Recycling Types -->
+    <string name="type_gelber_sack">Yellow Bag</string>
+    <string name="type_altpapier">Paper Waste</string>
+    <string name="type_altglas">Glass Waste</string>
+    <string name="type_biomuell">Organic Waste</string>
+    <string name="type_restmuell">General Waste</string>
+
+    <!-- Instructions -->
+    <string name="instr_altglas">Separate by color (white, green, brown) and throw into the corresponding glass containers. Lids go in the yellow bag.</string>
+    <string name="instr_altpapier">Fold flat and place in the paper bin. Do not throw in soiled paper (e.g., pizza boxes).</string>
+    <string name="instr_gelber_sack">Empty packaging made of plastic, metal, or composite materials (e.g., milk cartons) in the yellow bag or yellow bin.</string>
+    <string name="instr_biomuell">Organic waste such as fruit and vegetable scraps, coffee grounds, or leaves in the organic waste bin.</string>
+    <string name="instr_restmuell">Throw into the general waste. Non-recyclable materials, diapers, or heavily soiled waste.</string>
+
+    <!-- Scanner -->
+    <string name="scanning">Scanning...</string>
+    <string name="hold_camera">Hold waste in front of the camera</string>
+    <string name="confidence_format">%1$.0f%% Confidence</string>
+    <string name="belongs_in">Belongs in: %1$s</string>
+
+    <!-- Home Categories -->
+    <string name="cat_plastic">Plastics</string>
+    <string name="cat_plastic_desc">Packaging, films</string>
+    <string name="cat_paper">Paper</string>
+    <string name="cat_paper_desc">Boxes, newspapers</string>
+    <string name="cat_glass">Glass</string>
+    <string name="cat_glass_desc">Bottles, jars</string>
+    <string name="cat_bio">Organic</string>
+    <string name="cat_bio_desc">Food, garden waste</string>
+    <string name="empty_category">No products in this category</string>
+</resources>

@@ -1,0 +1,9 @@
+plastic_bottle
+glass_bottle
+cardboard
+metal_can
+paper
+plastic_cup
+food_waste
+carton
+restmüll

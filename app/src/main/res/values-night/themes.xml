@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme -->
+    <style name="Theme.RecyScan" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/green_accent</item>
+        <item name="colorPrimaryContainer">@color/green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/green_primary</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="android:statusBarColor">@color/dark_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/dark_background</item>
+        <item name="android:fontFamily">@font/outfit_regular</item>
+    </style>
+
+    <style name="Theme.RecyScan.Splash" parent="Theme.RecyScan">
+        <item name="android:windowBackground">@color/dark_background</item>
+    </style>
+</resources>

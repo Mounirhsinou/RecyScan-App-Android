@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Green Palette -->
+    <color name="green_primary">#2E7D32</color>
+    <color name="green_dark">#1B5E20</color>
+    <color name="green_light">#E8F5E9</color>
+    <color name="green_accent">#4CAF50</color>
+    <color name="green_surface">#F1F8E9</color>
+
+    <!-- Category Colors -->
+    <color name="yellow_light">#FFF8E1</color>
+    <color name="yellow_primary">#F9A825</color>
+    <color name="blue_light">#E3F2FD</color>
+    <color name="blue_primary">#1565C0</color>
+    <color name="brown_light">#EFEBE9</color>
+    <color name="brown_primary">#795548</color>
+    <color name="teal_light">#E0F2F1</color>
+    <color name="teal_primary">#00897B</color>
+    <color name="red_light">#FFEBEE</color>
+    <color name="red_primary">#D32F2F</color>
+
+    <!-- Neutrals -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey_light">#F5F5F5</color>
+    <color name="grey_medium">#9E9E9E</color>
+    <color name="grey_dark">#424242</color>
+    <color name="grey_light_text">#BDBDBD</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="card_bg">#FAFAFA</color>
+
+    <!-- Scanner -->
+    <color name="scanner_mask">#80000000</color>
+
+    <!-- Bottom Nav -->
+    <color name="bottom_nav_active">@color/green_primary</color>
+    <color name="bottom_nav_inactive">#9E9E9E</color>
+
+    <!-- Material Theme Colors -->
+    <color name="md_theme_primary">@color/green_primary</color>
+    <color name="md_theme_onPrimary">@color/white</color>
+    <color name="md_theme_primaryContainer">@color/green_light</color>
+    <color name="md_theme_surface">@color/white</color>
+    <color name="md_theme_background">@color/white</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_card">#2C2C2C</color>
+    <color name="dark_divider">#333333</color>
+</resources>

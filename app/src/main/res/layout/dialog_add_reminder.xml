@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Waste Type Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/outfit_medium"
+        android:text="Abfallart"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/spinner_waste_type"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_spinner" />
+
+    <!-- Day Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/outfit_medium"
+        android:text="Wochentag"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/spinner_day"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_spinner" />
+
+    <!-- Time Picker -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/outfit_medium"
+        android:text="Uhrzeit"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_selected_time"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_spinner"
+        android:fontFamily="@font/outfit_medium"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:text="07:00"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:focusable="true" />
+
+</LinearLayout>

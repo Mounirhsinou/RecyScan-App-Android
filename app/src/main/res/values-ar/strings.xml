@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RecyScan</string>
+    <string name="tagline">فرز النفايات بشكل صحيح</string>
+    <string name="search_hint">ابحث عن النفايات أو المواد القابلة لإعادة التدوير...</string>
+    <string name="scan">مسح</string>
+    <string name="scan_description">وجه الكاميرا نحو النفايات للعثور على الحاوية الصحيحة.</string>
+    <string name="categories">أنواع النفايات</string>
+    <string name="guide_title">أين تذهب النفايات؟</string>
+    <string name="guide_subtitle">ابحث عن العناصر للتخلص منها بشكل صحيح.</string>
+    <string name="reminders_title">المواعيد</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="no_results">لم يتم العثور على منتج</string>
+    <string name="product_not_found">المنتج غير موجود في قاعدة البيانات</string>
+    <string name="done">تم</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_guide">الدليل</string>
+    <string name="nav_scanner">الماسح</string>
+    <string name="nav_reminders">المواعيد</string>
+    <string name="nav_settings">الملف الشخصي</string>
+
+    <!-- Settings -->
+    <string name="dark_mode">الوضع الليلي</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="city">المدينة</string>
+    <string name="language">اللغة</string>
+    <string name="select_city">اختر المدينة</string>
+    <string name="select_language">اختر اللغة</string>
+    <string name="app_version">إصدار التطبيق</string>
+
+    <!-- Recycling Types -->
+    <string name="type_gelber_sack">الكيس الأصفر</string>
+    <string name="type_altpapier">نفايات الورق</string>
+    <string name="type_altglas">نفايات الزجاج</string>
+    <string name="type_biomuell">النفايات العضوية</string>
+    <string name="type_restmuell">النفايات العامة</string>
+
+    <!-- Instructions -->
+    <string name="instr_altglas">افصل حسب اللون (أبيض، أخضر، بني) وارمها في حاويات الزجاج المناسبة. الأغطية تذهب في الكيس الأصفر.</string>
+    <string name="instr_altpapier">اطوها بشكل مسطح وضعها في سلة الورق. لا ترمي الأوراق المتسخة (مثل علب البيتزا).</string>
+    <string name="instr_gelber_sack">العبوات الفارغة المصنوعة من البلاستيك أو المعدن أو المواد المركبة (مثل كرتون الحليب) في الكيس الأصفر أو الحاوية الصفراء.</string>
+    <string name="instr_biomuell">النفايات العضوية مثل بقايا الفواكه والخضروات، تفل القهوة، أو الأوراق في سلة النفايات العضوية.</string>
+    <string name="instr_restmuell">ارمه في النفايات العامة. المواد غير القابلة لإعادة التدوير، الحفاضات، أو النفايات المتسخة بشدة.</string>
+
+    <!-- Scanner -->
+    <string name="scanning">جاري المسح...</string>
+    <string name="hold_camera">ضع النفايات أمام الكاميرا</string>
+    <string name="confidence_format">%1$.0f%% ثقة</string>
+    <string name="belongs_in">ينتمي إلى: %1$s</string>
+
+    <!-- Home Categories -->
+    <string name="cat_plastic">البلاستيك</string>
+    <string name="cat_plastic_desc">التعبئة والتغليف، الرقائق</string>
+    <string name="cat_paper">الورق</string>
+    <string name="cat_paper_desc">الصناديق، الصحف</string>
+    <string name="cat_glass">الزجاج</string>
+    <string name="cat_glass_desc">الزجاجات، البرطمانات</string>
+    <string name="cat_bio">العضوية</string>
+    <string name="cat_bio_desc">الغذاء، نفايات الحدائق</string>
+    <string name="empty_category">لا توجد منتجات في هذه الفئة</string>
+</resources>
